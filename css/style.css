@@ -1,0 +1,418 @@
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    margin-right: 5px;
+    font-size: 15px;    
+    color: #999999;
+    font-weight: bold;  
+}
+
+.dropdown:hover .dropbtn {
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1c1c1c;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #2aa2d4;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropbtn:hover {
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-color: red;
+}
+.top-bar{
+    background-color: #2aa2d4;
+    height: 50px;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+.first-header{
+    float:left;
+}
+.right-menu{
+    float:right;
+}
+.right-menu ul li {
+    display: inline;
+    float: left;
+    border-right: 1px solid white;
+}
+
+.right-menu ul li:last-child {
+    border-right: none;
+}
+
+.right-menu ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+.plus {
+    margin-left:240px;
+    background-color: #2aa2d4;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    float: right;
+}
+.plus:hover {
+    cursor: pointer;
+}
+.plus:hover {
+    background-color: #2aa2d4;
+}
+.social-icons {
+    padding: 10px;
+    margin-right: 55px;
+    float:left;
+
+}
+
+.social-icons img {
+    padding: 10px;
+    background-color: #2aa2d4;
+    border-radius: 10px:;
+    margin-right: 10px;
+}
+
+.social-icons img:hover {
+    cursor: pointer;
+}
+
+.social-icons .linked-in-logo:hover {
+    background-color: #0e76a8;
+}
+
+.social-icons .twitter-logo:hover {
+    background-color: #00acee;
+}
+
+.social-icons .pinterest-logo:hover {
+    background-color: #c8232c;
+}
+
+.social-icons .google-plus-logo:hover {
+    background-color: #db4a39;
+}
+
+.social-icons .rss-logo:hover {
+    background-color: #ee802f;
+}
+.logo {
+    float: left;
+    margin-top: 70px;
+    margin-right: 120px;
+    cursor: pointer;
+}
+
+.search{
+    float:right;
+    margin-top:50px;
+}
+.input-search {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 1px solid #dddddd;
+    border-radius:4px;
+    background-color:#2a2a2a;
+    color:white;
+}
+
+.search button {
+    padding: 10px;
+    border: 1px solid #2aa2d4 ;
+    color: white;
+    background-color:#2aa2d4 ;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.navigation {
+    width: 100%;
+    float: left;
+    background-color: #2a2a2a;
+    margin-top: 35px;
+    border-bottom: 2px solid black;
+}
+.menu {
+    
+    margin-top: 5px;
+   
+}
+
+.menu ul {
+    padding: 0;
+    list-style: none;
+
+}
+
+.menu ul li  {
+    display: inline;
+    float: left;
+    border-right: 1px solid #d8c6c6;
+    margin-right:8px;
+}
+.menu ul li:first-child {
+    border-left: 1px solid #d8c6c6;
+
+}
+
+.menu ul li:last-child {
+    border-right: none;
+}
+
+.menu ul li a {
+    font-family: Georgia Regular;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    margin-right: 5px;
+    color: #999999;
+    font-weight: bold;
+
+}
+.menu ul li a:hover {
+    color: #ffffff;
+}
+.slider{
+    margin-top:40px;
+}
+
+.content1{
+    float:left;
+
+}
+
+.teksti1 {
+    float:right;
+}
+h4{
+    color:#2aa2d4;
+    margin-top:33px;
+}
+.content2{
+    float:right;
+}
+.teksti2{
+    float:right;
+}
+
+.article img {
+    border: 2px solid black; 
+    margin: 0 .5em 0 0; 
+}
+.article img{
+    margin-top:40px;
+}
+.content3{
+    float:right;
+}
+.teksti3{
+    float:right;
+}
+.content4{
+    float:right;
+}
+.teksti4{
+    float:right;
+}
+.first-part{
+    float:left;
+}
+.first-part{
+   width:49%;
+}
+.content5{
+    width:49%;
+}
+.content5{
+    float:left;
+}
+.content6{
+    float:right;
+}
+.content6{
+    width:49%;
+}
+.second-part{
+    float:right;
+}
+.second-part{
+   width:49%;
+}
+.content7{
+    width:49%;
+}
+.content7{
+    float:right;
+}
+.content8{
+    float:left;
+}
+.content8{
+    width:49%;
+}
+.our-team{
+    width:49%;
+    float:left;
+}
+.team{
+    font-size:25px;
+    width:50%;
+    float:left;
+    margin-top:20px;
+    
+}
+.person1{
+    width:49%;
+    float:right;
+    margin-top:45px;
+    
+}
+.our-team2{
+    width:49%;
+    float:right;
+    margin-top:45px;
+    margin-right: 0px;
+}
+.person2{
+    width:49%;
+    float:right;
+}
+.person3{
+    width:49%;
+}
+
+footer{ 
+    width: 100%;
+    float: left;
+    background-color: #1c1c1c;
+    margin-top: 55px;
+}
+.top img{
+    margin-left:420px;
+    margin-top:10px;
+}
+.top img:hover {
+    cursor: pointer;
+}
+.top p{
+    margin-left:445px;
+    color:white;
+    
+}
+
+.section{
+    width:100%;
+    float:left;
+    border-bottom: 2px solid white;
+
+}
+.company-details{
+    width: 30%;
+    float: left;
+    margin-left:30px;
+   
+}
+.company-details h3{
+    font-size: 12px;
+    color:white;
+}
+.company-details p{
+    color:#666666;
+    font-family: Georgia Regular;
+}
+.latest-post{
+    width: 30%;
+    float: left;
+   
+}
+.latest-post h3{
+    font-size: 12px;
+    color:white;
+}
+.latest-post p{
+    color:#666666;
+    font-family: Georgia Regular;
+}
+.latest-post img{
+    float:left;
+}
+.links{
+    width:30%;
+    float:left;
+    margin-left:30px;
+}
+.links h3{
+    font-size: 12px;
+    color:white;
+}
+
+.quick-links a{
+    font-size: 12px;
+    color:#2aa2d4;
+}
+.latest-post p{
+    color:#666666;
+    font-family: Georgia Regular;
+}
+.copyright{
+    float:left;
+     margin-left:30px;
+
+}
+.copyright p{
+    color:#666666;
+}
+.template{
+    float:right;
+     margin-right:30px;
+}
+.template p{
+    color:#666666;
+}
